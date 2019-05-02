@@ -1,0 +1,30 @@
+{
+  "name": "mtp-sengaa-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "start-server": "tsc && node build/server.js",
+    "start": "nodemon -e ts -w ./ -x npm run start-server",
+    "stop": "taskkill /F /IM node.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahorgebre/mtp-sengaa-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahorgebre/mtp-sengaa-api/issues"
+  },
+  "homepage": "https://github.com/nahorgebre/mtp-sengaa-api#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "typescript": "^3.4.5",
+    "yarn": "^1.15.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1"
+  }
+}
+
